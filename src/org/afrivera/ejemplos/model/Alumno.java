@@ -9,7 +9,7 @@ public class Alumno implements Comparable<Alumno>{
     public Alumno() {
     }
 
-    public Alumno(String nombre, int nota) {
+    public Alumno(String nombre, Integer nota) {
         this.nombre = nombre;
         this.nota = nota;
     }
@@ -22,11 +22,11 @@ public class Alumno implements Comparable<Alumno>{
         this.nombre = nombre;
     }
 
-    public int getNota() {
+    public Integer getNota() {
         return nota;
     }
 
-    public void setNota(int nota) {
+    public void setNota(Integer nota) {
         this.nota = nota;
     }
 
@@ -50,10 +50,10 @@ public class Alumno implements Comparable<Alumno>{
             return -1;
         }*/
         // con integer
-        if(this.nota == null){
+        if(this.nombre == null){
             return 0;
         }
-        return this.nota.compareTo(o.nota);
+        return this.nombre.compareTo(o.nombre);
     }
 
     @Override
