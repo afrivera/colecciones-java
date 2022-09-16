@@ -16,6 +16,7 @@ public class EjemploTreeSetComparable {
         sa.add(new Alumno("Jano", 7));
         sa.add(new Alumno("Andres", 3));
         sa.add(new Alumno("Zeus", 2));
+        sa.add(new Alumno("Lucas", 2)); // si se compara por nota, solo recibe el primer valor que coincida con 2 en este caso Zeus
 
         System.out.println("sa = " + sa);
     }
