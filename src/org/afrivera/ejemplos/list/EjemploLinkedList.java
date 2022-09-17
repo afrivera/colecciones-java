@@ -1,4 +1,4 @@
-package org.afrivera.ejemplos.set;
+package org.afrivera.ejemplos.list;
 
 import org.afrivera.ejemplos.model.Alumno;
 
